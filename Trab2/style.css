@@ -1,0 +1,27 @@
+form {
+    margin-right: 65%;
+    background-color:gainsboro;
+    box-shadow: 3px 3px 3px 3px
+}
+
+header{
+    font-size: x-large;
+    text-decoration: underline;
+}
+
+button{
+    padding: 25px;
+    box-shadow: 1px 1px 1px 1px
+}
+
+.textField:hover{
+    background-color: lightgrey;
+}
+
+.textField{
+    box-shadow: 1px 1px 1px 1px
+}
+
+.texto{
+    padding: 15px;
+}

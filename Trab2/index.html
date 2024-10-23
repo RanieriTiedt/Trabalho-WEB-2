@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="formulario">
+
+        <div class="texto">
+        <header>GERENCIADOR DE TAREFAS</header> <br><br>
+        <div>
+            <label for="nomeTarefa" id="nomeTarefa">Nome da tarefa:</label> <br>
+            <input type="text" id="txtNomeTarefa" class="textField" > <br> <br>
+        </div>
+
+        <div>
+            <label for="dataVencimento" id="dataVencimento">Data de vencimento:</label> <br>
+            <input type="date" id="dateDataVencimento" lang="pt-br" class="textField"> <br><br>
+        </div>
+
+        <div>
+            <label for="prioridade" id="prioridade">Prioridade da tarefa</label> <br>
+            <input type="radio" id="radioPrioridadeAlta" value="Alta" name="Prioridade" onclick="selecionado++">
+            <label for="radio" id="prioridadeAlta">Alta</label> <br>
+            <input type="radio" id="radioPrioridadeMedia" value="Media" name="Prioridade" onclick="selecionado++">
+            <label for="radio" id="prioridadeMedia">Média</label> <br>
+            <input type="radio" id="radioPrioridadeBaixa" value="Baixa" name="Prioridade" onclick="selecionado++">
+            <label for="radio" id="prioridadeBaixa">Baixa</label> <br> <br>
+        </div>
+
+        <div>
+            <label for="descricao" id="descricao">Descrição</label><br>
+            <input type="text" id="txtDescricao" class="textField"> <br><br>
+        </div>
+
+        <div>
+            <label for="senha" id="senha">Senha:</label><br>
+            <input type="password" id="txtSenha" class="textField"><br><br>
+        </div>
+        <button type="button" onclick="validarFormulario()">Adicionar Tarefa</button>
+    </div>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
